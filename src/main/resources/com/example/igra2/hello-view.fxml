@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.igra2.HelloController">
+    <children>
+        <AnchorPane layoutX="71.0" layoutY="37.0" prefHeight="450.0" prefWidth="450.0">
+        <children>
+            <ImageView fx:id="image1" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#imageAction" layoutX="0" layoutY="0">
+               <image>
+                <Image url="file:/C:/javadef/igra2/src/img/zero.jpg"/>
+               </image>
+            </ImageView>
+            <ImageView fx:id="image2" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#imageAction" layoutX="150" layoutY="0">
+                <image>
+                    <Image url="file:/C:/javadef/igra2/src/img/zero.jpg"/>
+                </image>
+            </ImageView>
+            <ImageView fx:id="image3" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#imageAction" layoutX="300" layoutY="0">
+                <image>
+                    <Image url="file:/C:/javadef/igra2/src/img/zero.jpg"/>
+                </image>
+            </ImageView>
+            <ImageView fx:id="image4" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#imageAction" layoutX="0" layoutY="150">
+                <image>
+                    <Image url="file:/C:/javadef/igra2/src/img/zero.jpg"/>
+                </image>
+            </ImageView>
+            <Label fx:id="Ball" layoutX="210.0" layoutY="190.0" prefHeight="35.0" prefWidth="231.0" text="0">
+                <font>
+                    <Font size="64.0" />
+                </font>
+            </Label>
+            <ImageView fx:id="image6" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#imageAction" layoutX="300" layoutY="150">
+                <image>
+                    <Image url="file:/C:/javadef/igra2/src/img/zero.jpg"/>
+                </image>
+            </ImageView>
+
+        <ImageView fx:id="image7" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#imageAction" layoutX="0" layoutY="300">
+            <image>
+                <Image url="file:/C:/javadef/igra2/src/img/zero.jpg"/>
+            </image>
+        </ImageView>
+            <ImageView fx:id="image8" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#imageAction" layoutX="150" layoutY="300">
+                <image>
+                    <Image url="file:/C:/javadef/igra2/src/img/zero.jpg"/>
+                </image>
+            </ImageView>
+            <ImageView fx:id="image9" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#imageAction" layoutX="300" layoutY="300">
+                <image>
+                    <Image url="file:/C:/javadef/igra2/src/img/zero.jpg"/>
+                </image>
+            </ImageView>
+        </children>
+        </AnchorPane>
+        <Label fx:id="LabHead" layoutX="196.0" layoutY="6.0" prefHeight="35.0" prefWidth="231.0" text="Парные картинки">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="butStart" layoutX="229.0" layoutY="532.0" mnemonicParsing="false" onAction="#onbBStartClick" prefHeight="26.0" prefWidth="141.0" text="ПУСК" />
+    </children>
+</AnchorPane>
